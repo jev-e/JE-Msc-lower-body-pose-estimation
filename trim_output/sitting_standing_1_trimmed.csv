@@ -1,4 +1,4 @@
-HMD0_tx,HMD0_ty,HMD0_tz,controller3_tx,controller3_ty,controller3_tz,controller6_tx,controller6_ty,controller6_tz,generic9_tx,generic9_ty,generic9_tz,generic7_tx,generic7_ty,generic7_tz,generic8_tx,generic8_ty,generic8_tz
+head_x,head_y,head_z,r_controller_x,r_controller_y,r_controller_1_z,l_controller_x,l_controller_y,l_controller_z,waist_x,waist_y,waist_z,r_foot_x,r_foot_y,r_foot_z,l_foot_x,l_foot_y,l_foot_z
 -6.727636,160.737717,-14.252626,15.548491,79.400757,-20.125412,-29.968643,77.395775,-13.90841,-5.162036,98.331703,-14.636016,20.963108,11.48808,-8.10504,-29.846144,9.534359,-5.240571
 -6.727636,160.733658,-14.261958,15.524464,79.400757,-20.074638,-30.011087,77.395691,-13.870947,-5.162036,98.331703,-14.620063,20.961411,11.48808,-8.10504,-29.846144,9.54782,-5.240571
 -6.728347,160.72435,-14.284849,15.506269,79.400757,-20.042038,-30.054165,77.395401,-13.837181,-5.147995,98.316475,-14.594257,20.958969,11.475616,-8.105552,-29.846144,9.538429,-5.240571
