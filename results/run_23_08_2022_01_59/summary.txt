@@ -1,26 +1,25 @@
-Model: "sequential_5"
+Model: "sequential_3"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
- gru_10 (GRU)                (None, 1, 64)             14400     
+ gru_6 (GRU)                 (None, 1, 28)             3276      
                                                                  
+ dropout_3 (Dropout)         (None, 1, 28)             0         
                                                                  
- dropout_5 (Dropout)         (None, 1, 64)             0         
+ gru_7 (GRU)                 (None, 28)                4872      
                                                                  
- gru_11 (GRU)                (None, 64)                24960     
-                                                                 
- dense_5 (Dense)             (None, 9)                 585       
+ dense_3 (Dense)             (None, 9)                 261       
                                                                  
 =================================================================
-Total params: 39,945
-Trainable params: 39,945
+Total params: 8,409
+Trainable params: 8,409
 Non-trainable params: 0
 _________________________________________________________________
 Epochs: 20
 Batch Size: 1
 Metrics:
-Loss: 0.042957719933419
-Accuracy: 0.919847823974405
+Loss: 0.04291752180882863
+Accuracy: 0.9224786209783519
 Loss Function: mse
 Optimizer: sgd
 Metrics: accuracy
