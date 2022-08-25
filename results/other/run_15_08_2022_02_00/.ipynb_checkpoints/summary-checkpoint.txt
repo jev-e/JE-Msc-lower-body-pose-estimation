@@ -1,0 +1,80 @@
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ gru_4 (GRU)                 (None, 1, 64)             14400     
+                                                                 
+ dropout_2 (Dropout)         (None, 1, 64)             0         
+                                                                 
+ gru_5 (GRU)                 (None, 64)                24960     
+                                                                 
+ dense_2 (Dense)             (None, 9)                 585       
+                                                                 
+=================================================================
+Total params: 39,945
+Trainable params: 39,945
+Non-trainable params: 0
+_________________________________________________________________
+Epochs: 20
+Batch Size: 256
+Metrics:
+Loss: 0.04819153256359555
+Accuracy: 0.9281186460949647
+Loss Function: mse
+Optimizer: sgd
+Metrics: accuracy
+Trained On:
+arm_raise_1_trimmed.csv
+arm_raise_3_trimmed.csv
+arm_raise_4_trimmed.csv
+beat_saber_1_trimmed.csv
+boxing_1_trimmed.csv
+boxing_3_trimmed.csv
+browsing_menu_1_trimmed.csv
+crouching_1_trimmed.csv
+crouch_walking_1_trimmed.csv
+crouch_walking_3_trimmed.csv
+dancing_1_trimmed.csv
+dancing_2_trimmed.csv
+fps_1_trimmed.csv
+high_kicks_1_trimmed.csv
+inspecting_object_1_trimmed.csv
+interacting_1_trimmed.csv
+interacting_2_trimmed.csv
+jumping_1_trimmed.csv
+jumping_2_trimmed.csv
+jumping_3_trimmed.csv
+jumping_5_trimmed.csv
+jumping_to_spot_1_trimmed.csv
+karate_kick_1_trimmed.csv
+leg_raise_1_trimmed.csv
+leg_raise_2_trimmed.csv
+leg_raise_3_trimmed.csv
+leg_raise_4_trimmed.csv
+leg_raise_6_trimmed.csv
+lunges_1_trimmed.csv
+lunges_2_trimmed.csv
+picking_up_1_trimmed.csv
+picking_up_object_1_trimmed.csv
+quick_draw_1_trimmed.csv
+running_1_trimmed.csv
+running_2_trimmed.csv
+running_on_spot_2_trimmed.csv
+running_on_spot_3_trimmed.csv
+running_on_spot_4_trimmed.csv
+sitting_on_floor_1_trimmed.csv
+sitting_standing_1_trimmed.csv
+sitting_standing_2_trimmed.csv
+sitting_standing_3_trimmed.csv
+sitting_standing_5_trimmed.csv
+squatting_1_trimmed.csv
+throwing_1_trimmed.csv
+walking_10_trimmed.csv
+walking_12_trimmed.csv
+walking_1_train.csv
+walking_2_test.csv
+walking_3_trimmed.csv
+walking_5_trimmed.csv
+walking_6_trimmed.csv
+walking_7_trimmed.csv
+walking_on_spot_2_trimmed.csv

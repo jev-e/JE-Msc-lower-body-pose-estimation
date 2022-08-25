@@ -1,0 +1,110 @@
+Model: "sequential_3"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ gru_6 (GRU)                 (None, 1, 28)             3276      
+                                                                 
+ dropout_3 (Dropout)         (None, 1, 28)             0         
+                                                                 
+ gru_7 (GRU)                 (None, 28)                4872      
+                                                                 
+ dense_3 (Dense)             (None, 9)                 261       
+                                                                 
+=================================================================
+Total params: 8,409
+Trainable params: 8,409
+Non-trainable params: 0
+_________________________________________________________________
+Epochs: 20
+Batch Size: 1
+Metrics:
+Loss: 0.04291752180882863
+Accuracy: 0.9224786209783519
+Loss Function: mse
+Optimizer: sgd
+Metrics: accuracy
+Trained On:
+al_1_trimmed.csv
+al_2_trimmed.csv
+al_3_trimmed.csv
+al_4_trimmed.csv
+al_5_trimmed.csv
+al_6_trimmed.csv
+al_7_trimmed.csv
+al_8_trimmed.csv
+al_9_trimmed.csv
+arm_raise_1_trimmed.csv
+arm_raise_3_trimmed.csv
+arm_raise_4_trimmed.csv
+beat_saber_1_trimmed.csv
+beat_saber_2_trimmed.csv
+beat_saber_3_trimmed.csv
+beat_saber_4_trimmed.csv
+beat_saber_5_trimmed.csv
+beat_saber_6_trimmed.csv
+beat_saber_7_trimmed.csv
+beat_saber_8_trimmed.csv
+boxing_1_trimmed.csv
+boxing_3_trimmed.csv
+browsing_menu_1_trimmed.csv
+crouching_1_trimmed.csv
+crouch_walking_1_trimmed.csv
+crouch_walking_3_trimmed.csv
+dancing_1_trimmed.csv
+dancing_2_trimmed.csv
+fps_1_trimmed.csv
+fruit_ninja_1_trimmed.csv
+fruit_ninja_2_trimmed.csv
+fruit_ninja_3_trimmed.csv
+fruit_ninja_4_trimmed.csv
+high_kicks_1_trimmed.csv
+hl_alyx_10_trimmed.csv
+hl_alyx_11_trimmed.csv
+hl_alyx_13_trimmed.csv
+hl_alyx_2_trimmed.csv
+hl_alyx_3_trimmed.csv
+hl_alyx_4_trimmed.csv
+hl_alyx_5_trimmed.csv
+hl_alyx_7_trimmed.csv
+hl_alyx_8_trimmed.csv
+inspecting_object_1_trimmed.csv
+interacting_1_trimmed.csv
+interacting_2_trimmed.csv
+jumping_1_trimmed.csv
+jumping_2_trimmed.csv
+jumping_3_trimmed.csv
+jumping_5_trimmed.csv
+jumping_jacks_1_trimmed.csv
+jumping_to_spot_1_trimmed.csv
+karate_kick_1_trimmed.csv
+leg_raise_1_trimmed.csv
+leg_raise_2_trimmed.csv
+leg_raise_3_trimmed.csv
+leg_raise_4_trimmed.csv
+leg_raise_6_trimmed.csv
+lunges_1_trimmed.csv
+lunges_2_trimmed.csv
+picking_up_1_trimmed.csv
+picking_up_object_1_trimmed.csv
+quick_draw_1_trimmed.csv
+running_1_trimmed.csv
+running_2_trimmed.csv
+running_on_spot_2_trimmed.csv
+running_on_spot_3_trimmed.csv
+running_on_spot_4_trimmed.csv
+sitting_on_floor_1_trimmed.csv
+sitting_standing_1_trimmed.csv
+sitting_standing_2_trimmed.csv
+sitting_standing_3_trimmed.csv
+sitting_standing_5_trimmed.csv
+squatting_1_trimmed.csv
+throwing_1_trimmed.csv
+walking_10_trimmed.csv
+walking_12_trimmed.csv
+walking_1_train.csv
+walking_2_test.csv
+walking_3_trimmed.csv
+walking_5_trimmed.csv
+walking_6_trimmed.csv
+walking_7_trimmed.csv
+walking_on_spot_2_trimmed.csv

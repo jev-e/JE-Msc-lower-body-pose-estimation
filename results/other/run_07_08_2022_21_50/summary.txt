@@ -1,0 +1,55 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ gru (GRU)                   (None, 64)                14400     
+                                                                 
+ dense (Dense)               (None, 9)                 585       
+                                                                 
+=================================================================
+Total params: 14,985
+Trainable params: 14,985
+Non-trainable params: 0
+_________________________________________________________________
+Epochs: 20
+Batch Size: 1
+Metrics:
+Loss: 0.08173316443270004
+Accuracy: 0.7795591619021057
+Loss Function: mse
+Optimizer: sgd
+Metrics: accuracy
+Trained On:
+arm_raise_1_trimmed.csv
+arm_raise_3_trimmed.csv
+arm_raise_4_trimmed.csv
+boxing_1_trimmed.csv
+boxing_3_trimmed.csv
+crouch_walking_1_trimmed.csv
+crouch_walking_3_trimmed.csv
+fps_1_trimmed.csv
+jumping_1_trimmed.csv
+jumping_2_trimmed.csv
+jumping_3_trimmed.csv
+jumping_5_trimmed.csv
+leg_raise_1_trimmed.csv
+leg_raise_2_trimmed.csv
+leg_raise_3_trimmed.csv
+leg_raise_4_trimmed.csv
+leg_raise_6_trimmed.csv
+picking_up_1_trimmed.csv
+running_on_spot_2_trimmed.csv
+sitting_on_floor_1_trimmed.csv
+sitting_standing_1_trimmed.csv
+sitting_standing_2_trimmed.csv
+sitting_standing_3_trimmed.csv
+sitting_standing_5_trimmed.csv
+walking_10_trimmed.csv
+walking_12_trimmed.csv
+walking_1_train.csv
+walking_2_test.csv
+walking_3_trimmed.csv
+walking_5_trimmed.csv
+walking_6_trimmed.csv
+walking_7_trimmed.csv
+walking_on_spot_2_trimmed.csv

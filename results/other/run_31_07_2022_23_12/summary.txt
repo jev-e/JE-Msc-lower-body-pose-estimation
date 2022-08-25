@@ -1,0 +1,22 @@
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ gru_2 (GRU)                 (None, 64)                14400     
+                                                                 
+ dropout_2 (Dropout)         (None, 64)                0         
+                                                                 
+ dense_2 (Dense)             (None, 9)                 585       
+                                                                 
+=================================================================
+Total params: 14,985
+Trainable params: 14,985
+Non-trainable params: 0
+_________________________________________________________________
+Epochs: 20
+Batch Size: 1
+Metrics:
+Loss: 0.11517456972005742
+Accuracy: 0.7424079335750476
+Trained On:
+walking_7_trimmed
