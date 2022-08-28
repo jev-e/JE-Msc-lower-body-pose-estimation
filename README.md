@@ -11,25 +11,25 @@ Project Requirements:
 
 Project Structure:
 
--animations
-  -FBX Animations
--notebooks
-  -RNN.ipynb: data pre-processing, model creation and training, writing results to file
-  -Analysis.ipynb: calculates mean absolute error and plots correlation graph based on given results directory
--recordings
-  -complex: raw motion capture, complex dataset
-  -simple: raw motion capture, simple dataset 
-  -old: all previous raw motion capture
--results
-  -other
-  -run_complex: results of predicting the complex dataset
-  -run_simple: results of predicting the simple dataset
--test_data
-  -simple: set of simple motion capture data
-  -complex :set of complex motion capture data
-  -old_test_data: previous training dataset 
--train_data
-  -training data CSVs
+-animations<br />
+  -FBX Animations<br />
+-notebooks<br />
+  -RNN.ipynb: data pre-processing, model creation and training, writing results to file<br />
+  -Analysis.ipynb: calculates mean absolute error and plots correlation graph based on given results directory<br />
+-recordings<br />
+  -complex: raw motion capture, complex dataset<br />
+  -simple: raw motion capture, simple dataset<br />
+  -old: all previous raw motion capture<br />
+-results<br />
+  -other<br />
+  -run_complex: results of predicting the complex dataset<br />
+  -run_simple: results of predicting the simple dataset<br />
+-test_data<br />
+  -simple: set of simple motion capture data<br />
+  -complex :set of complex motion capture data<br />
+  -old_test_data: previous training dataset <br />
+-train_data<br />
+  -training data CSVs<br />
 
 
  
