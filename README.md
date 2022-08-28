@@ -14,7 +14,7 @@ Project Structure:
 -animations<br />
 &nbsp;-FBX Animations<br />
 -notebooks<br />
-&nbsp;-RNN.ipynb: data pre-processing, model creation and training, writing results to file<br />
+&nbsp;&nbsp;-RNN.ipynb: data pre-processing, model creation and training, writing results to file<br />
 &nbsp;-Analysis.ipynb: calculates mean absolute error and plots correlation graph based on given results directory<br />
 -recordings<br />
 &nbsp;-complex: raw motion capture, complex dataset<br />
