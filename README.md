@@ -12,9 +12,9 @@ Project Requirements:
 Project Structure:
 
 -animations<br />
-  -FBX Animations<br />
+  &ensp;-FBX Animations<br />
 -notebooks<br />
-  -RNN.ipynb: data pre-processing, model creation and training, writing results to file<br />
+ &ensp; -RNN.ipynb: data pre-processing, model creation and training, writing results to file<br />
   -Analysis.ipynb: calculates mean absolute error and plots correlation graph based on given results directory<br />
 -recordings<br />
   -complex: raw motion capture, complex dataset<br />
